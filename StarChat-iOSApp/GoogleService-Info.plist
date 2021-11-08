@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>57213445204-iq7ltg1d9vl5sqq4vfua6i93or7vhgdo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.57213445204-iq7ltg1d9vl5sqq4vfua6i93or7vhgdo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDn1a2B99m1HcJR-qFFT5L0fTDMiQkJF-o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>57213445204</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.FatemeFeraghi.StarChat-iOSApp</string>
+	<key>PROJECT_ID</key>
+	<string>starchat-ios-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>starchat-ios-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:57213445204:ios:02964db1e0d2bf85d339c1</string>
+</dict>
+</plist>
