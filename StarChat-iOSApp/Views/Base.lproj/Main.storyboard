@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bUz-qR-Iwv">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -18,23 +17,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="✨StarChat  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0v-ur-61L" customClass="CLTypingLabel" customModule="CLTypingLabel">
-                                <rect key="frame" x="207" y="418" width="0.0" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="✨StarChat  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0v-ur-61L">
+                                <rect key="frame" x="57.5" y="418" width="299.5" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="xLN-FC-DPh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
-                                <color key="textColor" name="NewLightGreen"/>
+                                <color key="textColor" name="DarkGreen"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUJ-Gy-kQy">
                                 <rect key="frame" x="0.0" y="802" width="414" height="60"/>
-                                <color key="backgroundColor" name="NewDarkPurple"/>
+                                <color key="backgroundColor" name="DarkPurple"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="nRL-9x-qKc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="tintColor" name="NewLightPurple"/>
+                                <color key="tintColor" name="LightPurple"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Log In"/>
                                 <connections>
@@ -43,7 +42,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01k-Tw-1xc">
                                 <rect key="frame" x="0.0" y="743" width="414" height="48"/>
-                                <color key="backgroundColor" name="NewLightPurple"/>
+                                <color key="backgroundColor" name="LightPurple"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="cLn-It-HFw"/>
                                 </constraints>
@@ -89,19 +88,9 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="o3Y-Ya-FSg">
                                 <rect key="frame" x="20" y="88" width="374" height="774"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JNe-be-MD9">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JNe-be-MD9">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="707"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="biA-g3-29Q">
-                                                <rect key="frame" x="0.0" y="44.5" width="374" height="43.5"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="biA-g3-29Q" id="IhR-SK-VQ2">
-                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </tableViewCellContentView>
-                                            </tableViewCell>
-                                        </prototypes>
                                     </tableView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zSe-cf-Rtv">
                                         <rect key="frame" x="0.0" y="726" width="374" height="48"/>
@@ -142,7 +131,18 @@
                             <constraint firstItem="j6d-DW-Cva" firstAttribute="trailing" secondItem="o3Y-Ya-FSg" secondAttribute="trailing" constant="20" id="lQG-oQ-55v"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="gFg-bD-EkW"/>
+                    <navigationItem key="navigationItem" id="gFg-bD-EkW">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="sQ7-gB-tOA">
+                            <color key="tintColor" name="DarkPurple"/>
+                            <connections>
+                                <action selector="logoutPressed:" destination="mul-TC-nUn" id="dVc-KO-gIg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="messageTextField" destination="CIh-XC-zzy" id="AHb-fN-0WP"/>
+                        <outlet property="tableView" destination="JNe-be-MD9" id="13O-bI-DF9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ju7-h9-uQd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -162,7 +162,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="Dr7-Al-vTj"/>
                                 </constraints>
-                                <color key="textColor" name="NewDarkPurple"/>
+                                <color key="textColor" name="DarkPurple"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -172,9 +172,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="xqQ-jo-vgE"/>
                                 </constraints>
-                                <color key="textColor" name="NewDarkPurple"/>
+                                <color key="textColor" name="DarkPurple"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKy-7D-UFM">
                                 <rect key="frame" x="48" y="259" width="318" height="55"/>
@@ -187,6 +187,9 @@
                                 <state key="normal" title="Register">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerPressed:" destination="UrL-BS-Mo3" eventType="touchUpInside" id="1y7-XB-w5T"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="laB-s8-mVD"/>
@@ -205,6 +208,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="hMy-dB-tJG"/>
                     <connections>
+                        <outlet property="emailTextField" destination="OW7-Ou-elr" id="FbP-4X-kyZ"/>
+                        <outlet property="passwordTextField" destination="zKM-bU-4I7" id="dfz-k7-tBB"/>
                         <segue destination="mul-TC-nUn" kind="show" identifier="RegisterToChatView" id="I6H-by-qv3"/>
                     </connections>
                 </viewController>
@@ -220,7 +225,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j8h-Md-7Sa">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1@2.com" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j8h-Md-7Sa">
                                 <rect key="frame" x="48" y="111" width="318" height="56"/>
                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
@@ -230,7 +235,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M0q-Hu-bCd">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M0q-Hu-bCd">
                                 <rect key="frame" x="48" y="189" width="318" height="56"/>
                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
@@ -238,7 +243,7 @@
                                 </constraints>
                                 <color key="textColor" name="NewDarkPurple"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W47-hd-Uka">
                                 <rect key="frame" x="48" y="259" width="318" height="55"/>
@@ -251,10 +256,13 @@
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginPressed:" destination="GfT-GX-pz7" eventType="touchUpInside" id="918-sD-6EP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CM9-WF-R4e"/>
-                        <color key="backgroundColor" name="NewLightPurple"/>
+                        <color key="backgroundColor" name="LightPurple"/>
                         <constraints>
                             <constraint firstItem="j8h-Md-7Sa" firstAttribute="leading" secondItem="CM9-WF-R4e" secondAttribute="leading" constant="48" id="2Ga-0Z-IP0"/>
                             <constraint firstItem="M0q-Hu-bCd" firstAttribute="top" secondItem="j8h-Md-7Sa" secondAttribute="bottom" constant="22" id="B2r-DE-cqj"/>
@@ -269,6 +277,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="X8y-bG-eIZ"/>
                     <connections>
+                        <outlet property="emailTextField" destination="j8h-Md-7Sa" id="0eH-FD-Cpv"/>
+                        <outlet property="passwordTextField" destination="M0q-Hu-bCd" id="wmJ-Ti-Q1O"/>
                         <segue destination="mul-TC-nUn" kind="show" identifier="LoginToChatView" id="Izb-4I-Mcp"/>
                     </connections>
                 </viewController>
@@ -295,25 +305,25 @@
             <point key="canvasLocation" x="934.78260869565224" y="151.33928571428569"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="j0v-ur-61L"/>
-    </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="I6H-by-qv3"/>
+        <segue reference="Izb-4I-Mcp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
+        <namedColor name="DarkGreen">
+            <color red="0.49000000953674316" green="0.60799998044967651" blue="0.47099998593330383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="DarkPurple">
+            <color red="0.29399999976158142" green="0.2199999988079071" blue="0.41200000047683716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="LightGreen">
             <color red="0.57999998331069946" green="0.65499997138977051" blue="0.52499997615814209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="LightPurple">
+            <color red="0.85100001096725464" green="0.86699998378753662" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="NewDarkPurple">
             <color red="0.29399999976158142" green="0.2199999988079071" blue="0.41200000047683716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="NewLightGreen">
-            <color red="0.49000000953674316" green="0.60799998044967651" blue="0.47099998593330383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="NewLightPurple">
-            <color red="0.85100001096725464" green="0.86699998378753662" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -18,6 +18,10 @@
 		E854F752273897B60001EF26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E854F751273897B60001EF26 /* LoginViewController.swift */; };
 		E854F754273897C90001EF26 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E854F753273897C90001EF26 /* ChatViewController.swift */; };
 		E8BD41FB2738A5B000385687 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8BD41FA2738A5B000385687 /* GoogleService-Info.plist */; };
+		E8D9B2BD273CBB9B0034FAE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9B2BC273CBB9B0034FAE6 /* Constants.swift */; };
+		E8D9B2C0273CC1EA0034FAE6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9B2BF273CC1EA0034FAE6 /* Message.swift */; };
+		E8D9B2C4273CC7A70034FAE6 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D9B2C2273CC7A70034FAE6 /* MessageCell.swift */; };
+		E8D9B2C5273CC7A70034FAE6 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D9B2C3273CC7A70034FAE6 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		E854F751273897B60001EF26 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E854F753273897C90001EF26 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		E8BD41FA2738A5B000385687 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8D9B2BC273CBB9B0034FAE6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E8D9B2BF273CC1EA0034FAE6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E8D9B2C2273CC7A70034FAE6 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		E8D9B2C3273CC7A70034FAE6 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +98,12 @@
 			children = (
 				E854F73B27388FB40001EF26 /* AppDelegate.swift */,
 				E854F73D27388FB40001EF26 /* SceneDelegate.swift */,
+				E8D9B2BC273CBB9B0034FAE6 /* Constants.swift */,
+				E8D9B2BE273CC1C80034FAE6 /* Models */,
+				E8D9B2C1273CC7450034FAE6 /* Views */,
 				E854F755273897ED0001EF26 /* Controllers */,
 				E854F74927388FB50001EF26 /* Info.plist */,
 				E8BD41FA2738A5B000385687 /* GoogleService-Info.plist */,
-				E854F74127388FB40001EF26 /* Main.storyboard */,
 				E854F74427388FB50001EF26 /* Assets.xcassets */,
 				E854F74627388FB50001EF26 /* LaunchScreen.storyboard */,
 			);
@@ -109,6 +119,24 @@
 				E854F74F2738979E0001EF26 /* RegisterViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E8D9B2BE273CC1C80034FAE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8D9B2BF273CC1EA0034FAE6 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8D9B2C1273CC7450034FAE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E854F74127388FB40001EF26 /* Main.storyboard */,
+				E8D9B2C2273CC7A70034FAE6 /* MessageCell.swift */,
+				E8D9B2C3273CC7A70034FAE6 /* MessageCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D9B2C5273CC7A70034FAE6 /* MessageCell.xib in Resources */,
 				E854F74827388FB50001EF26 /* LaunchScreen.storyboard in Resources */,
 				E8BD41FB2738A5B000385687 /* GoogleService-Info.plist in Resources */,
 				E854F74527388FB50001EF26 /* Assets.xcassets in Resources */,
@@ -231,8 +260,11 @@
 				E854F73C27388FB40001EF26 /* AppDelegate.swift in Sources */,
 				E854F73E27388FB40001EF26 /* SceneDelegate.swift in Sources */,
 				E854F752273897B60001EF26 /* LoginViewController.swift in Sources */,
+				E8D9B2BD273CBB9B0034FAE6 /* Constants.swift in Sources */,
+				E8D9B2C0273CC1EA0034FAE6 /* Message.swift in Sources */,
 				E854F754273897C90001EF26 /* ChatViewController.swift in Sources */,
 				E854F7502738979E0001EF26 /* RegisterViewController.swift in Sources */,
+				E8D9B2C4273CC7A70034FAE6 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
