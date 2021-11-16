@@ -20,7 +20,7 @@
                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Q1Q-df-RKk">
                         <rect key="frame" x="10" y="10" width="308" height="50"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UQI-rd-wzL" userLabel="Right Image">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UQI-rd-wzL" userLabel="Left Image">
                                 <rect key="frame" x="0.0" y="0.0" width="40" height="39.5"/>
                                 <color key="tintColor" name="TouchBarBezel"/>
                                 <constraints>
@@ -69,7 +69,7 @@
                 <outlet property="label" destination="ltF-3h-nbi" id="IYH-sX-UYY"/>
                 <outlet property="leftImageView" destination="UQI-rd-wzL" id="6Mg-Yi-ayu"/>
                 <outlet property="messageBubble" destination="fe9-9r-DdN" id="P7U-Vc-Vpg"/>
-                <outlet property="rightImageView" destination="UQI-rd-wzL" id="BBh-mg-RHV"/>
+                <outlet property="rightImageView" destination="diW-OJ-r29" id="KWW-Z5-NxV"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="86.383928571428569"/>
         </tableViewCell>

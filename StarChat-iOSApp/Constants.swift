@@ -19,6 +19,7 @@ struct Constants {
         static let darkPurple = "DarkPurple"
         static let darkGreen = "DarkGreen"
         static let lightGreen = "LightGreen"
+        static let newDark = "NewDark"
     }
     
     struct FStore {
