@@ -14,7 +14,7 @@ struct Constants {
     static let cellNibName = "MessageCell"
     static let cellIdentifier = "ReusableCell"
     
-    struct BrandColors {
+    struct CustomColors {
         static let lightPurple = "LightPurple"
         static let darkPurple = "DarkPurple"
         static let darkGreen = "DarkGreen"
